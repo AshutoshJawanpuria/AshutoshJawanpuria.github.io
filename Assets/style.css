@@ -1,5 +1,5 @@
 html {
-    background-color: rgb(161, 45, 64);
+    background-color: #222831;
     font-size: 20px;
     /* text-align: center; */
     /* margin: 0px; */
@@ -7,6 +7,19 @@ html {
 
 body {
     margin: 0;
+}
+
+h1 {
+    color: #393e46;
+    text-align: center;
+}
+
+h3 {
+    color: #393e46;
+}
+
+p {
+    color: #393e46;
 }
 
 
@@ -47,6 +60,7 @@ p {
     top: 0;
     overflow: hidden;
     margin: 0;
+    border-radius: 25px;
 }
 
 #navbar a {
@@ -61,9 +75,73 @@ p {
     margin-left: 8%;
     margin-right: 8%;
     opacity: 0.5;
+    border-radius: 25px;
 }
 
 #navbar a:hover {
     background-color: rgb(8, 63, 8);
     color: rgb(63, 6, 6);
+}
+
+#About_me {
+    margin-top: 80px;
+    border-radius: 25px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 5px;
+    color: #f2f2f2;
+    padding-bottom: 100px;
+}
+
+#About_me h1 {
+    /* display: inline-block; */
+    font-family: 'Satisfy', cursive;
+    font-size: 60px;
+    /* position: absolute;
+    right: 50%; */
+}
+
+#About_me h3 {
+    display: inline-block;
+    font-family: 'Satisfy', cursive;
+    font-size: 50px;
+    /* position: relative;
+    top: 100px;
+} */
+}
+
+#div1img {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    right: 100px;
+    overflow: hidden;
+}
+
+#About_me1 {
+    border-radius: 25px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+#About_me1 h1 {
+    /* display: inline-block; */
+    font-family: 'Satisfy', cursive;
+    font-size: 60px;
+    text-align: center;
+}
+
+#About_me1 p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    display: inline-block;
+}
+
+#div2img {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    right: 100px;
 }
