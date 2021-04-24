@@ -124,6 +124,7 @@ p {
     margin-right: 5px;
     padding: 5px;
     margin-top: 10px;
+    padding-bottom: 100px;
 }
 
 #About_me1 h1 {
@@ -144,4 +145,41 @@ p {
     height: 400px;
     position: absolute;
     right: 100px;
+}
+
+#projects {
+    border-radius: 25px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+#projimg {
+    height: 200px;
+    width: 300px;
+    border-radius: 25px;
+}
+
+#description {
+    display: inline-block;
+    position: relative;
+    bottom: 70px;
+    left: 200px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    margin-bottom: 100px;
+}
+
+#projects h1 {
+    font-family: 'Satisfy', cursive;
+    font-size: 60px;
+    text-align: center;
+}
+
+#caption {
+    display: inline-block;
+    position: relative;
+    top: 50px;
+    right: 73%;
 }
